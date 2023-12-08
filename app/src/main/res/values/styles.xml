@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="lineview_rect">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="postline_backgroud">
+        <item name="android:background">@drawable/post_backgroud_light</item>
+    </style>
+
+    <style name="tintElement">
+        <item name="tint">@color/primary_dark</item>
+    </style>
+
+    <style name="tintText">
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="bottomMenuTint">
+        <item name="backgroundTint">@color/primary_light</item>
+    </style>
+
+</resources>

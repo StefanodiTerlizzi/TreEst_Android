@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/post_element.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/post_element.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_error_handler.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/activity_error_handler.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/nav.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/nav.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_view_wall.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_view_wall.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_viewprofile.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_viewprofile.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/line_element.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/line_element.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/station_element.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/station_element.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_menu.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_bottom_menu.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_choose_wall.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/activity_choose_wall.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_new_post.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_new_post.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_officialpost.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_officialpost.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_choose_wall.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_choose_wall.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/old_fragment_setprofile.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/old_fragment_setprofile.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/postofficial.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/postofficial.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dettagli_tratta.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_dettagli_tratta.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/stefano/Documents/mobile computing/TreEst/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_map.xml",
+        "source": "/home/stefano/Documents/mobile computing/TreEst/app/src/main/res/layout/fragment_map.xml"
+    }
+]

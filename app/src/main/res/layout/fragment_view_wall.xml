@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_fragmentViewWall"
+    tools:context=".Wall.FragmentViewWall">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_dettaglibacheca"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:foreground="@drawable/ripple_circle_effect"
+            android:background="@drawable/circle_accent"
+            android:src="@drawable/info"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/terminus_to"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/terminus_from" />
+
+
+
+
+        <TextView
+            android:id="@+id/terminus_to"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center_vertical"
+            android:paddingStart="40dp"
+            android:text="Wall View"
+            android:textColor="@color/accent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_dettaglibacheca"
+            app:layout_constraintTop_toBottomOf="@+id/terminus_from" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a:"
+            android:layout_marginStart="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/terminus_to"
+            app:layout_constraintStart_toStartOf="@+id/terminus_to"
+            app:layout_constraintTop_toTopOf="@+id/terminus_to" />
+
+
+        <TextView
+            android:id="@+id/terminus_from"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle"
+            android:gravity="center_vertical"
+            android:paddingStart="40dp"
+            android:text="Wall View"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_dettaglibacheca"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="da:"
+            android:layout_marginStart="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/terminus_from"
+            app:layout_constraintStart_toStartOf="@+id/terminus_from"
+            app:layout_constraintTop_toTopOf="@+id/terminus_from" />
+
+        <ImageButton
+            android:id="@+id/btn_switch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:foreground="@drawable/ripple_circle_effect"
+            android:background="@drawable/circle"
+            android:cropToPadding="false"
+            android:src="@drawable/switch_arrow_2"
+            app:layout_constraintBottom_toBottomOf="@+id/terminus_to"
+            app:layout_constraintEnd_toEndOf="@+id/terminus_to"
+            app:layout_constraintStart_toEndOf="@+id/terminus_from"
+            app:layout_constraintTop_toTopOf="@+id/terminus_from"
+            app:tint="@color/white" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/up">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewOfficialPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic__561372_plus_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

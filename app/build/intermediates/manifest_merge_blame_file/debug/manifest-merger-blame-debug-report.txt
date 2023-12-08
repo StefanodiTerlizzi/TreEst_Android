@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.treest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+10    <!-- internet permission -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- storage permission -->
+12-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+13-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:7:5-80
+13-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- location permission -->
+15-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:9:5-80
+15-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:11:22-78
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <application
+29-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:13:5-46:19
+30        android:allowBackup="true"
+30-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:14:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:15:9-43
+35        android:label="@string/app_name"
+35-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:16:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:17:9-54
+37        android:supportsRtl="true"
+37-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:18:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.TreEst" >
+39-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:19:9-44
+40        <activity
+40-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:20:9-22:40
+41            android:name="com.example.treest.ErrorHandler"
+41-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:21:13-41
+42            android:exported="false" />
+42-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:22:13-37
+43
+44        <meta-data
+45            android:name="com.google.android.geo.API_KEY"
+45-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:25:13-58
+46            android:value="AIzaSyB3tLi9P2CdyGJHFu7hQ03_jQZeUGsF8qU" />
+46-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:26:13-44
+47        <meta-data
+47-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:27:9-29:69
+48            android:name="com.google.android.gms.version"
+48-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:28:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:29:13-66
+50
+51        <activity
+51-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:31:9-33:40
+52            android:name="com.example.treest.Wall.ChooseWall"
+52-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:32:13-44
+53            android:exported="false" />
+53-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:33:13-37
+54        <activity
+54-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:34:9-36:40
+55            android:name="com.example.treest.Profile.Profile"
+55-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:35:13-44
+56            android:exported="false" />
+56-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:36:13-37
+57        <activity
+57-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:37:9-45:20
+58            android:name="com.example.treest.MainActivity"
+58-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:38:13-41
+59            android:exported="true" >
+59-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:39:13-36
+60            <intent-filter>
+60-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:40:13-44:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:41:17-69
+61-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:41:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:43:17-77
+63-->/home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:43:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <service
+67-->[androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+70            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+70-->[androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:39:9-41:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:40:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:41:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+79    </application>
+80
+81</manifest>

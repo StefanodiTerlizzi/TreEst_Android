@@ -1,0 +1,117 @@
+com/example/treest/Wall/ChooseWall.java
+ com.example.treest.Wall.ChooseWall
+com/example/treest/databinding/PostofficialBinding.java
+ com.example.treest.databinding.PostofficialBinding
+com/example/treest/Profile/Profile.java
+ com.example.treest.Profile.Profile
+ com.example.treest.Profile.Profile$1
+com/example/treest/databinding/OldFragmentSetprofileBinding.java
+ com.example.treest.databinding.OldFragmentSetprofileBinding
+com/example/treest/TransitionType.java
+ com.example.treest.TransitionType
+ com.example.treest.TransitionType$1
+com/example/treest/model/User.java
+ com.example.treest.model.User
+com/example/treest/databinding/FragmentBottomMenuBinding.java
+ com.example.treest.databinding.FragmentBottomMenuBinding
+com/example/treest/databinding/PostElementBinding.java
+ com.example.treest.databinding.PostElementBinding
+com/example/treest/model/Model.java
+ com.example.treest.model.Model
+com/example/treest/model/DB/AppDatabase.java
+ com.example.treest.model.DB.AppDatabase
+com/example/treest/ImageUtility.java
+ com.example.treest.ImageUtility
+com/example/treest/ComunicationController.java
+ com.example.treest.ComunicationController
+com/example/treest/model/DB/User.java
+ com.example.treest.model.DB.User
+com/example/treest/databinding/StationElementBinding.java
+ com.example.treest.databinding.StationElementBinding
+com/example/treest/OnSwipeTouchListener.java
+ com.example.treest.OnSwipeTouchListener
+ com.example.treest.OnSwipeTouchListener$1
+ com.example.treest.OnSwipeTouchListener$GestureListener
+com/example/treest/FragmentDettagliTratta.java
+ com.example.treest.FragmentDettagliTratta
+com/example/treest/databinding/LineElementBinding.java
+ com.example.treest.databinding.LineElementBinding
+com/example/treest/Profile/old_FragmentSet.java
+ com.example.treest.Profile.old_FragmentSet
+com/example/treest/MapFragment.java
+ com.example.treest.MapFragment
+ com.example.treest.MapFragment$1
+com/example/treest/Wall/FragmentNewPost.java
+ com.example.treest.Wall.FragmentNewPost
+com/example/treest/ListOfficialPosts/ViewHolder.java
+ com.example.treest.ListOfficialPosts.ViewHolder
+com/example/treest/BottomMenu.java
+ com.example.treest.BottomMenu
+com/example/treest/databinding/FragmentChooseWallBinding.java
+ com.example.treest.databinding.FragmentChooseWallBinding
+com/example/treest/databinding/ActivityChooseWallBinding.java
+ com.example.treest.databinding.ActivityChooseWallBinding
+com/example/treest/model/Post.java
+ com.example.treest.model.Post
+com/example/treest/databinding/FragmentDettagliTrattaBinding.java
+ com.example.treest.databinding.FragmentDettagliTrattaBinding
+com/example/treest/databinding/ActivityProfileBinding.java
+ com.example.treest.databinding.ActivityProfileBinding
+com/example/treest/model/Station.java
+ com.example.treest.model.Station
+com/example/treest/ListLines/ViewHolder.java
+ com.example.treest.ListLines.ViewHolder
+com/example/treest/databinding/ActivityMainBinding.java
+ com.example.treest.databinding.ActivityMainBinding
+com/example/treest/model/Line.java
+ com.example.treest.model.Line
+ com.example.treest.model.Line$Terminus
+com/example/treest/listStations/ViewHolder.java
+ com.example.treest.listStations.ViewHolder
+com/example/treest/databinding/FragmentOfficialpostBinding.java
+ com.example.treest.databinding.FragmentOfficialpostBinding
+com/example/treest/ListPosts/ViewHolder.java
+ com.example.treest.ListPosts.ViewHolder
+com/example/treest/databinding/FragmentNewPostBinding.java
+ com.example.treest.databinding.FragmentNewPostBinding
+com/example/treest/databinding/FragmentViewWallBinding.java
+ com.example.treest.databinding.FragmentViewWallBinding
+com/example/treest/BuildConfig.java
+ com.example.treest.BuildConfig
+com/example/treest/model/OfficialPost.java
+ com.example.treest.model.OfficialPost
+com/example/treest/LocationUtility.java
+ com.example.treest.LocationUtility
+ com.example.treest.LocationUtility$1
+com/example/treest/Wall/FragmentViewWall.java
+ com.example.treest.Wall.FragmentViewWall
+com/example/treest/databinding/FragmentMapBinding.java
+ com.example.treest.databinding.FragmentMapBinding
+com/example/treest/listStations/Adapter.java
+ com.example.treest.listStations.Adapter
+com/example/treest/ListPosts/Adapter.java
+ com.example.treest.ListPosts.Adapter
+com/example/treest/model/DB/UserDAO.java
+ com.example.treest.model.DB.UserDAO
+com/example/treest/databinding/ActivityErrorHandlerBinding.java
+ com.example.treest.databinding.ActivityErrorHandlerBinding
+com/example/treest/ErrorHandler.java
+ com.example.treest.ErrorHandler
+com/example/treest/Wall/FragmentChooseWall.java
+ com.example.treest.Wall.FragmentChooseWall
+com/example/treest/ListLines/Adapter.java
+ com.example.treest.ListLines.Adapter
+com/example/treest/databinding/NavBinding.java
+ com.example.treest.databinding.NavBinding
+com/example/treest/databinding/FragmentViewprofileBinding.java
+ com.example.treest.databinding.FragmentViewprofileBinding
+com/example/treest/LocationHandler.java
+ com.example.treest.LocationHandler
+com/example/treest/ListOfficialPosts/Adapter.java
+ com.example.treest.ListOfficialPosts.Adapter
+com/example/treest/Profile/FragmentView.java
+ com.example.treest.Profile.FragmentView
+com/example/treest/Wall/FragmentOfficialPost.java
+ com.example.treest.Wall.FragmentOfficialPost
+com/example/treest/MainActivity.java
+ com.example.treest.MainActivity

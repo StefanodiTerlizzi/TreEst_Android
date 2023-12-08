@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+    <path
+        android:fillColor="#3498db"
+        android:name="Shape 2"
+        android:pathData="m550 116 -210 122 -209 21 -142 90 -41 -360 587 -19 15 146z" />
+    <path
+        android:fillColor="#2ecc71"
+        android:name="Shape 3"
+        android:pathData="m540 542 -25 -399 -162 106 -216 25 -161 100 -10 206 574 -38z" />
+    <path
+        android:strokeColor="#f1c40f"
+        android:strokeWidth="32"
+        android:strokeMiterLimit="100"
+        android:name="Shape 1"
+        android:pathData="m553 117 -200 125 -215 25 -172 108" />
+    <path
+        android:strokeColor="#f1c40f"
+        android:strokeWidth="32.6"
+        android:strokeMiterLimit="100"
+        android:name="Shape 4"
+        android:pathData="m523 569 -170 -138 -55 -177" />
+    <path
+        android:fillColor="#000"
+        android:fillAlpha="0.13"
+        android:name="Rectangle 1"
+        android:pathData="m627 574h-277v-580h277v580z" />
+    <path
+        android:fillColor="#000"
+        android:fillAlpha="0.13"
+        android:name="Rectangle 1"
+        android:pathData="m130 522h-277v-580h277v580z" />
+    <path
+        android:fillColor="#e74c3c"
+        android:name="Shape 5"
+        android:pathData="m246.3 346.4c0 0 -84.3 -129.6 -84.3 -171.5c0 -41.9 34.5 -81.9 84.3 -81.9c49.8 0 81.7 39.5 81.7 92.2c0 23.8 -79.2 163.8 -79.2 163.8" />
+    <path
+        android:fillColor="#c0392b"
+        android:name="Ellipse 2"
+        android:pathData="m243.7 134c22.6 0 40.9 18.3 40.9 41c0 22.6 -18.3 41 -40.9 41c-22.6 0 -40.9 -18.3 -40.9 -41c0 -22.6 18.3 -41 40.9 -41z" />
+    <path
+        android:fillColor="#3498db"
+        android:name="Ellipse 3"
+        android:pathData="m245 154.5c12 0 21.7 9.7 21.7 21.7c0 12 -9.7 21.7 -21.7 21.7c-12 0 -21.7 -9.7 -21.7 -21.7c0 -12 9.7 -21.7 21.7 -21.7z" />
+</vector>
+
+

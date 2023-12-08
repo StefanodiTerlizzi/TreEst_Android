@@ -1,0 +1,367 @@
+-- Merging decision tree log ---
+meta-data#com.google.android.geo.API_KEY
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:24:9-26:47
+	android:value
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:26:13-44
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:25:13-58
+manifest
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/stefano/.gradle/caches/transforms-3/06d0b5eba1676fb9af5f1f3aa8b0db2d/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] /home/stefano/.gradle/caches/transforms-3/b84b6b4293a54c9704f3e752818a00fe/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/stefano/.gradle/caches/transforms-3/d701e522727c61d0a750890e1c278336/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /home/stefano/.gradle/caches/transforms-3/dc5e6aaf88fccb7bb135835786b5bac8/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/stefano/.gradle/caches/transforms-3/9df5800f1f1f0de2b3ab26b08966cc54/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/stefano/.gradle/caches/transforms-3/711b924b223a1ea477d0d7b3bcf029aa/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stefano/.gradle/caches/transforms-3/9005888d35873f2adabccffe2f2b6284/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stefano/.gradle/caches/transforms-3/72b0bdc0768507d1970706e826c4fe36/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/stefano/.gradle/caches/transforms-3/7d9e6261a007ec4bf7d2881ec47d74cc/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/fd48314a745a83849ddb05b55709d14f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/5242052e3548ad86ce3a046fa50293cc/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/stefano/.gradle/caches/transforms-3/4e2c1f8dc868b98e4e9481cc61621bbf/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/stefano/.gradle/caches/transforms-3/7d10663a5bef3f6f8fdff444593262cc/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/stefano/.gradle/caches/transforms-3/3a6d109d40a3e7c9cee6ffe0fc227185/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/stefano/.gradle/caches/transforms-3/1cf64fabe864dfb10c4442e60ad32ecc/transformed/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/stefano/.gradle/caches/transforms-3/876c96775b1d7c5bf76a64ed0af6890c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/stefano/.gradle/caches/transforms-3/b60dc06e2c15f1f00cc5f3d8ac3dbab8/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/stefano/.gradle/caches/transforms-3/135dd03ca910aa4f368e423e847ad97f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/stefano/.gradle/caches/transforms-3/9da8a52ad36ccbe2b11d07d19fc4b4bb/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stefano/.gradle/caches/transforms-3/e6aa6fa46a0531c8ee573240b268eb3b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stefano/.gradle/caches/transforms-3/690c7b96640dd2684d09c9d9c04b8363/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/stefano/.gradle/caches/transforms-3/cf4c14e392ad56ed6ddaac64552317d6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stefano/.gradle/caches/transforms-3/7774085ec8e64122e9798fcc53aa5864/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stefano/.gradle/caches/transforms-3/0ceb0e134d75211d37df19dff34924b6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/stefano/.gradle/caches/transforms-3/5fc17070cbfd2a07b5fa827e8104106f/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stefano/.gradle/caches/transforms-3/2490362734c677ff94b1bcaed7476579/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/stefano/.gradle/caches/transforms-3/049dc7ec478c83712f9a1ada79c93697/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stefano/.gradle/caches/transforms-3/4e9dda596118539e9296432ac9dc3efb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/18422317a075b367c02a33248dbc0544/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/stefano/.gradle/caches/transforms-3/79dfc6a4a728b5a891438c5e73b4cee2/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/stefano/.gradle/caches/transforms-3/f4a50f7a7b75a5126d9ba02ef22bea34/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/stefano/.gradle/caches/transforms-3/87c8341f28a0f0814f0a7d0758927efb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/0bc72e74aeffbf9a6ca267ce3af39bfe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stefano/.gradle/caches/transforms-3/44be3be0cb8ff53acebf94fc837fa0e5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/stefano/.gradle/caches/transforms-3/05d563d5cc910371bb4707a5afb306ec/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stefano/.gradle/caches/transforms-3/e9d747cc84e1bec5ecc8de9de75edd5e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/stefano/.gradle/caches/transforms-3/f4b11aca9bc63c34fa010dd281de0317/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/stefano/.gradle/caches/transforms-3/abe710e154f6fcff7857bafef6cd4289/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/stefano/.gradle/caches/transforms-3/19bb1b85affef5bf6457e32441326011/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/stefano/.gradle/caches/transforms-3/44b721c1d2eb6e02cca69427a0159c36/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stefano/.gradle/caches/transforms-3/f319da58506b71d3f4055ad59ae55362/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stefano/.gradle/caches/transforms-3/2e127d444c57e7b86d7421cf65ad7248/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stefano/.gradle/caches/transforms-3/632cb278bc34e04757952ee65c0f1beb/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/stefano/.gradle/caches/transforms-3/979ed657658c05e55feb95a29f6769aa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/stefano/.gradle/caches/transforms-3/1832f73f152d6c7653a35d1cc9d9def2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/stefano/.gradle/caches/transforms-3/5decb60745d37b0857126f0859ffba72/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/db12efb23babb096dcbc7a0a5a731390/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/stefano/.gradle/caches/transforms-3/3f895663da59856f7bd7ca7e19031030/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stefano/.gradle/caches/transforms-3/201db6b32627a93eb6c7c272480bf0c4/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stefano/.gradle/caches/transforms-3/1bc1013a8e62473dd900828262beca12/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stefano/.gradle/caches/transforms-3/922e556af676412779dd5ccb3e52f1e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/stefano/.gradle/caches/transforms-3/b1a46c7a40c0d8d8084fd5bfa3124d20/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stefano/.gradle/caches/transforms-3/1d3b25b46db55dcaab2ceed39820582b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/stefano/.gradle/caches/transforms-3/cfddfa6f29b1555e37dc72e1b83bf005/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:11:22-78
+application
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:13:5-46:19
+MERGED from [com.google.android.material:material:1.4.0] /home/stefano/.gradle/caches/transforms-3/dc5e6aaf88fccb7bb135835786b5bac8/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/stefano/.gradle/caches/transforms-3/dc5e6aaf88fccb7bb135835786b5bac8/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/stefano/.gradle/caches/transforms-3/9df5800f1f1f0de2b3ab26b08966cc54/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/stefano/.gradle/caches/transforms-3/9df5800f1f1f0de2b3ab26b08966cc54/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/stefano/.gradle/caches/transforms-3/7d10663a5bef3f6f8fdff444593262cc/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/stefano/.gradle/caches/transforms-3/7d10663a5bef3f6f8fdff444593262cc/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/stefano/.gradle/caches/transforms-3/3a6d109d40a3e7c9cee6ffe0fc227185/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/stefano/.gradle/caches/transforms-3/3a6d109d40a3e7c9cee6ffe0fc227185/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/stefano/.gradle/caches/transforms-3/1cf64fabe864dfb10c4442e60ad32ecc/transformed/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/stefano/.gradle/caches/transforms-3/1cf64fabe864dfb10c4442e60ad32ecc/transformed/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/stefano/.gradle/caches/transforms-3/979ed657658c05e55feb95a29f6769aa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/stefano/.gradle/caches/transforms-3/979ed657658c05e55feb95a29f6769aa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:19:9-44
+activity#com.example.treest.ErrorHandler
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:21:13-41
+meta-data#com.google.android.gms.version
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:27:9-29:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:29:13-66
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:28:13-58
+activity#com.example.treest.Wall.ChooseWall
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:32:13-44
+activity#com.example.treest.Profile.Profile
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:35:13-44
+activity#com.example.treest.MainActivity
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:37:9-45:20
+	android:exported
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:38:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/stefano/.gradle/caches/transforms-3/06d0b5eba1676fb9af5f1f3aa8b0db2d/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /home/stefano/.gradle/caches/transforms-3/06d0b5eba1676fb9af5f1f3aa8b0db2d/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] /home/stefano/.gradle/caches/transforms-3/b84b6b4293a54c9704f3e752818a00fe/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /home/stefano/.gradle/caches/transforms-3/b84b6b4293a54c9704f3e752818a00fe/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/stefano/.gradle/caches/transforms-3/d701e522727c61d0a750890e1c278336/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/stefano/.gradle/caches/transforms-3/d701e522727c61d0a750890e1c278336/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /home/stefano/.gradle/caches/transforms-3/dc5e6aaf88fccb7bb135835786b5bac8/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/stefano/.gradle/caches/transforms-3/dc5e6aaf88fccb7bb135835786b5bac8/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/stefano/.gradle/caches/transforms-3/9df5800f1f1f0de2b3ab26b08966cc54/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/stefano/.gradle/caches/transforms-3/9df5800f1f1f0de2b3ab26b08966cc54/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/stefano/.gradle/caches/transforms-3/711b924b223a1ea477d0d7b3bcf029aa/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/stefano/.gradle/caches/transforms-3/711b924b223a1ea477d0d7b3bcf029aa/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stefano/.gradle/caches/transforms-3/9005888d35873f2adabccffe2f2b6284/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/stefano/.gradle/caches/transforms-3/9005888d35873f2adabccffe2f2b6284/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stefano/.gradle/caches/transforms-3/72b0bdc0768507d1970706e826c4fe36/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/stefano/.gradle/caches/transforms-3/72b0bdc0768507d1970706e826c4fe36/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/stefano/.gradle/caches/transforms-3/7d9e6261a007ec4bf7d2881ec47d74cc/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/stefano/.gradle/caches/transforms-3/7d9e6261a007ec4bf7d2881ec47d74cc/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/fd48314a745a83849ddb05b55709d14f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/fd48314a745a83849ddb05b55709d14f/transformed/jetified-lifecycle-livedata-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/5242052e3548ad86ce3a046fa50293cc/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/5242052e3548ad86ce3a046fa50293cc/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/stefano/.gradle/caches/transforms-3/4e2c1f8dc868b98e4e9481cc61621bbf/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/stefano/.gradle/caches/transforms-3/4e2c1f8dc868b98e4e9481cc61621bbf/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/stefano/.gradle/caches/transforms-3/7d10663a5bef3f6f8fdff444593262cc/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.0] /home/stefano/.gradle/caches/transforms-3/7d10663a5bef3f6f8fdff444593262cc/transformed/jetified-play-services-location-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/stefano/.gradle/caches/transforms-3/3a6d109d40a3e7c9cee6ffe0fc227185/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/stefano/.gradle/caches/transforms-3/3a6d109d40a3e7c9cee6ffe0fc227185/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/stefano/.gradle/caches/transforms-3/1cf64fabe864dfb10c4442e60ad32ecc/transformed/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.0] /home/stefano/.gradle/caches/transforms-3/1cf64fabe864dfb10c4442e60ad32ecc/transformed/jetified-play-services-tasks-18.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/stefano/.gradle/caches/transforms-3/8ba8892466107e89ebbb1f02772e4da7/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/stefano/.gradle/caches/transforms-3/876c96775b1d7c5bf76a64ed0af6890c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/stefano/.gradle/caches/transforms-3/876c96775b1d7c5bf76a64ed0af6890c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/stefano/.gradle/caches/transforms-3/b60dc06e2c15f1f00cc5f3d8ac3dbab8/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/stefano/.gradle/caches/transforms-3/b60dc06e2c15f1f00cc5f3d8ac3dbab8/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/stefano/.gradle/caches/transforms-3/135dd03ca910aa4f368e423e847ad97f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/stefano/.gradle/caches/transforms-3/135dd03ca910aa4f368e423e847ad97f/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/stefano/.gradle/caches/transforms-3/9da8a52ad36ccbe2b11d07d19fc4b4bb/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/stefano/.gradle/caches/transforms-3/9da8a52ad36ccbe2b11d07d19fc4b4bb/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stefano/.gradle/caches/transforms-3/e6aa6fa46a0531c8ee573240b268eb3b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/stefano/.gradle/caches/transforms-3/e6aa6fa46a0531c8ee573240b268eb3b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stefano/.gradle/caches/transforms-3/690c7b96640dd2684d09c9d9c04b8363/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/stefano/.gradle/caches/transforms-3/690c7b96640dd2684d09c9d9c04b8363/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/stefano/.gradle/caches/transforms-3/cf4c14e392ad56ed6ddaac64552317d6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/stefano/.gradle/caches/transforms-3/cf4c14e392ad56ed6ddaac64552317d6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stefano/.gradle/caches/transforms-3/7774085ec8e64122e9798fcc53aa5864/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/stefano/.gradle/caches/transforms-3/7774085ec8e64122e9798fcc53aa5864/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stefano/.gradle/caches/transforms-3/0ceb0e134d75211d37df19dff34924b6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/stefano/.gradle/caches/transforms-3/0ceb0e134d75211d37df19dff34924b6/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/stefano/.gradle/caches/transforms-3/5fc17070cbfd2a07b5fa827e8104106f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/stefano/.gradle/caches/transforms-3/5fc17070cbfd2a07b5fa827e8104106f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stefano/.gradle/caches/transforms-3/2490362734c677ff94b1bcaed7476579/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/stefano/.gradle/caches/transforms-3/2490362734c677ff94b1bcaed7476579/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/stefano/.gradle/caches/transforms-3/049dc7ec478c83712f9a1ada79c93697/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/stefano/.gradle/caches/transforms-3/049dc7ec478c83712f9a1ada79c93697/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stefano/.gradle/caches/transforms-3/4e9dda596118539e9296432ac9dc3efb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/stefano/.gradle/caches/transforms-3/4e9dda596118539e9296432ac9dc3efb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/18422317a075b367c02a33248dbc0544/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/18422317a075b367c02a33248dbc0544/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/stefano/.gradle/caches/transforms-3/79dfc6a4a728b5a891438c5e73b4cee2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/stefano/.gradle/caches/transforms-3/79dfc6a4a728b5a891438c5e73b4cee2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/stefano/.gradle/caches/transforms-3/f4a50f7a7b75a5126d9ba02ef22bea34/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/stefano/.gradle/caches/transforms-3/f4a50f7a7b75a5126d9ba02ef22bea34/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/stefano/.gradle/caches/transforms-3/87c8341f28a0f0814f0a7d0758927efb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/stefano/.gradle/caches/transforms-3/87c8341f28a0f0814f0a7d0758927efb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/0bc72e74aeffbf9a6ca267ce3af39bfe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/stefano/.gradle/caches/transforms-3/0bc72e74aeffbf9a6ca267ce3af39bfe/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stefano/.gradle/caches/transforms-3/44be3be0cb8ff53acebf94fc837fa0e5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/stefano/.gradle/caches/transforms-3/44be3be0cb8ff53acebf94fc837fa0e5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/stefano/.gradle/caches/transforms-3/05d563d5cc910371bb4707a5afb306ec/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/stefano/.gradle/caches/transforms-3/05d563d5cc910371bb4707a5afb306ec/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/stefano/.gradle/caches/transforms-3/aa8de7ba7da15a0e6b613f7484774bd4/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stefano/.gradle/caches/transforms-3/e9d747cc84e1bec5ecc8de9de75edd5e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/stefano/.gradle/caches/transforms-3/e9d747cc84e1bec5ecc8de9de75edd5e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/stefano/.gradle/caches/transforms-3/f4b11aca9bc63c34fa010dd281de0317/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/stefano/.gradle/caches/transforms-3/f4b11aca9bc63c34fa010dd281de0317/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/stefano/.gradle/caches/transforms-3/abe710e154f6fcff7857bafef6cd4289/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/stefano/.gradle/caches/transforms-3/abe710e154f6fcff7857bafef6cd4289/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/stefano/.gradle/caches/transforms-3/19bb1b85affef5bf6457e32441326011/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/stefano/.gradle/caches/transforms-3/19bb1b85affef5bf6457e32441326011/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/stefano/.gradle/caches/transforms-3/44b721c1d2eb6e02cca69427a0159c36/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/stefano/.gradle/caches/transforms-3/44b721c1d2eb6e02cca69427a0159c36/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stefano/.gradle/caches/transforms-3/f319da58506b71d3f4055ad59ae55362/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/stefano/.gradle/caches/transforms-3/f319da58506b71d3f4055ad59ae55362/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stefano/.gradle/caches/transforms-3/2e127d444c57e7b86d7421cf65ad7248/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/stefano/.gradle/caches/transforms-3/2e127d444c57e7b86d7421cf65ad7248/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stefano/.gradle/caches/transforms-3/632cb278bc34e04757952ee65c0f1beb/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/stefano/.gradle/caches/transforms-3/632cb278bc34e04757952ee65c0f1beb/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/stefano/.gradle/caches/transforms-3/979ed657658c05e55feb95a29f6769aa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/stefano/.gradle/caches/transforms-3/979ed657658c05e55feb95a29f6769aa/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/stefano/.gradle/caches/transforms-3/1832f73f152d6c7653a35d1cc9d9def2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/stefano/.gradle/caches/transforms-3/1832f73f152d6c7653a35d1cc9d9def2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/stefano/.gradle/caches/transforms-3/5decb60745d37b0857126f0859ffba72/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /home/stefano/.gradle/caches/transforms-3/5decb60745d37b0857126f0859ffba72/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/db12efb23babb096dcbc7a0a5a731390/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/stefano/.gradle/caches/transforms-3/db12efb23babb096dcbc7a0a5a731390/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/stefano/.gradle/caches/transforms-3/3f895663da59856f7bd7ca7e19031030/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/stefano/.gradle/caches/transforms-3/3f895663da59856f7bd7ca7e19031030/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stefano/.gradle/caches/transforms-3/201db6b32627a93eb6c7c272480bf0c4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/stefano/.gradle/caches/transforms-3/201db6b32627a93eb6c7c272480bf0c4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stefano/.gradle/caches/transforms-3/1bc1013a8e62473dd900828262beca12/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/stefano/.gradle/caches/transforms-3/1bc1013a8e62473dd900828262beca12/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stefano/.gradle/caches/transforms-3/922e556af676412779dd5ccb3e52f1e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/stefano/.gradle/caches/transforms-3/922e556af676412779dd5ccb3e52f1e4/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/stefano/.gradle/caches/transforms-3/b1a46c7a40c0d8d8084fd5bfa3124d20/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/stefano/.gradle/caches/transforms-3/b1a46c7a40c0d8d8084fd5bfa3124d20/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stefano/.gradle/caches/transforms-3/1d3b25b46db55dcaab2ceed39820582b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/stefano/.gradle/caches/transforms-3/1d3b25b46db55dcaab2ceed39820582b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/stefano/.gradle/caches/transforms-3/cfddfa6f29b1555e37dc72e1b83bf005/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/stefano/.gradle/caches/transforms-3/cfddfa6f29b1555e37dc72e1b83bf005/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		ADDED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stefano/Documents/mobile computing/TreEst/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /home/stefano/.gradle/caches/transforms-3/8abdf4df0840eba327eb559770aa054f/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.0] /home/stefano/.gradle/caches/transforms-3/b1dc8d6abeefdd059e345787bc48ee41/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] /home/stefano/.gradle/caches/transforms-3/d3cd1a2496f21bd1b5c21d8809735410/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
